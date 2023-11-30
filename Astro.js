@@ -450,7 +450,7 @@
         window.game.FAPI.registerMod("zero.astro", (mod) => {
             window.game.FAPI.registerArrows([tFlipFlopSplit1, tFlipFlopSplit2, tFlipFlopSplit3, tFlipFlopSplit4], mod);
             window.game.FAPI.registerArrows([diagonalSplit1, diagonalSplit2, diagonalSplit3, diagonalSplit4, blueBlocker], mod);
-            window.game.FAPI.registerArrows([diagonalDetector, doubleAnd, colorDetector], mod);
+            window.game.FAPI.registerArrows([diagonalDetector, doubleAnd, colorDetector, garrow], mod);
             window.game.FAPI.registerArrows([arrow9, adder, block], mod);
             console.log("Mod loaded!");
         });
