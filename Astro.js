@@ -13,7 +13,7 @@
         diagonalSplit1.name = ["Diagonal splitter", "Диагональный разветвлитель", ".", "."];
         diagonalSplit1.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         diagonalSplit1.does = ["Sends a signal to the left upper corner, and right upper corner.", "Передаёт сигнал в левый верхний угол, и правый верхний угол.", ".", "."];
-        diagonalSplit1.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow1.png";
+        diagonalSplit1.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow1.png";
         diagonalSplit1.is_pressable = false;
 
         diagonalSplit1.update = (arrow) => {
@@ -45,7 +45,7 @@
         diagonalSplit2.name = ["Diagonal splitter", "Диагональный разветвлитель", ".", "."];
         diagonalSplit2.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         diagonalSplit2.does = ["Sends a signal to the left bottom corner, and right upper corner.", "Передаёт сигнал в левый нижний угол, и правый верхний угол.", ".", "."];
-        diagonalSplit2.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow2.png";
+        diagonalSplit2.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow2.png";
         diagonalSplit2.is_pressable = false;
 
         diagonalSplit2.update = (arrow) => {
@@ -68,7 +68,7 @@
         diagonalSplit3.name = ["Diagonal splitter", "Диагональный разветвлитель", ".", "."];
         diagonalSplit3.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         diagonalSplit3.does = ["Sends a signal to the left upper corner, right upper corner, and right bottom corner.", "Передаёт сигнал в левый верхний угол, правый верхний угол, и правый нижний угол.", ".", "."];
-        diagonalSplit3.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow3.png";
+        diagonalSplit3.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow3.png";
         diagonalSplit3.is_pressable = false;
 
         diagonalSplit3.update = (arrow) => {
@@ -92,7 +92,7 @@
         diagonalSplit4.name = ["Diagonal splitter", "Диагональный разветвлитель", ".", "."];
         diagonalSplit4.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         diagonalSplit4.does = ["Sends a signal to all diagonal directions.", "Передаёт сигнал во все стороны по диагонали.", ".", "."];
-        diagonalSplit4.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow4.png";
+        diagonalSplit4.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow4.png";
         diagonalSplit4.is_pressable = false;
 
         diagonalSplit4.update = (arrow) => {
@@ -117,7 +117,7 @@
         blueBlocker.name = ["Blue blocker", "Синий блокер", ".", "."];
         blueBlocker.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         blueBlocker.does = ["Turns off the arrow after 1 cell in front of the blocker.", "Выключает стрелку через 1 клетку перед собой.", ".", "."];
-        blueBlocker.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow5.png";
+        blueBlocker.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow5.png";
         blueBlocker.is_pressable = false;
 
         blueBlocker.update = (arrow) => {
@@ -139,7 +139,7 @@
         doubleAnd.name = ["\"And\" blue splitter", "\"И\" синий раздвоитель", ".", "."];
         doubleAnd.info = ["On at least two incoming signals.", "При минимум двух входящих сигналах.", ".", "."];
         doubleAnd.does = ["Turns off the arrow after 1 cell in front of it.", "Передает сигнал в две клетки перед собой.", ".", "."];
-        doubleAnd.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow6.png";
+        doubleAnd.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow6.png";
         doubleAnd.is_pressable = false;
 
         doubleAnd.update = (arrow) => {
@@ -162,7 +162,7 @@
         tFlipFlopSplit1.name = ["T-Flip-Flop Splitter", "Разветвитель Т-Триггер", ".", "."];
         tFlipFlopSplit1.info = ["On any incoming signal if not active. Or when there are no incoming signals and already active.", "При любом входящем сигнале, если не активна. Или когда нет входящих сигналов и уже активна.", ".", "."];
         tFlipFlopSplit1.does = ["Sends a signal both right and left.", "Передает сигнал влево, и вправо.", ".", "."];
-        tFlipFlopSplit1.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow7.png";
+        tFlipFlopSplit1.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow7.png";
         tFlipFlopSplit1.is_pressable = false;
         //tFlipFlopSplit1.custom_data = [1];
 
@@ -185,7 +185,7 @@
         tFlipFlopSplit2.name = ["T-Flip-Flop Splitter", "Разветвитель Т-Триггер", ".", "."];
         tFlipFlopSplit2.info = ["On any incoming signal if not active. Or when there are no incoming signals and already active.", "При любом входящем сигнале, если не активна. Или когда нет входящих сигналов и уже активна.", ".", "."];
         tFlipFlopSplit2.does = ["Sends a signal to the right, up and left.", "Передает сигнал влево, вверх, и вправо.", ".", "."];
-        tFlipFlopSplit2.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow8.png";
+        tFlipFlopSplit2.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow8.png";
         tFlipFlopSplit2.is_pressable = false;
         //tFlipFlopSplit2.custom_data = [1];
 
@@ -209,7 +209,7 @@
         tFlipFlopSplit3.name = ["T-Flip-Flop Splitter", "Разветвитель Т-Триггер", ".", "."];
         tFlipFlopSplit3.info = ["On any incoming signal if not active. Or when there are no incoming signals and already active.", "При любом входящем сигнале, если не активна. Или когда нет входящих сигналов и уже активна.", ".", "."];
         tFlipFlopSplit3.does = ["Sends a signal to the top and left.", "Передает сигнал и вверх, и вправо.", ".", "."];
-        tFlipFlopSplit3.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow10.png";
+        tFlipFlopSplit3.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow10.png";
         tFlipFlopSplit3.is_pressable = false;
         //tFlipFlopSplit3.custom_data = [1];
 
@@ -217,6 +217,25 @@
             if (arrow.signalsCount > 0) arrow.signal = arrow.signal === 3 ? 0 : 3;
         };
         tFlipFlopSplit3.transmit = (arrow, chunk, x, y) => {
+            if (arrow.signal === 3) {
+                window.game.FAPI.SignalUpdater.updateCount(window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, -1, 0));
+                window.game.FAPI.SignalUpdater.updateCount(window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, 0, 1));
+            }
+        }
+        
+        tFlipFlopSplit4 = new window.game.FAPI.FModArrowType();
+        tFlipFlopSplit4.id = 15;
+        tFlipFlopSplit4.name = ["T-Flip-Flop Splitter", "Разветвитель Т-Триггер", ".", "."];
+        tFlipFlopSplit4.info = ["On any incoming signal if not active. Or when there are no incoming signals and already active.", "При любом входящем сигнале, если не активна. Или когда нет входящих сигналов и уже активна.", ".", "."];
+        tFlipFlopSplit4.does = ["Sends a signal to the top and left.", "Передает сигнал на 2 клетки над собой.", ".", "."];
+        tFlipFlopSplit4.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow17.png";
+        tFlipFlopSplit4.is_pressable = false;
+        //tFlipFlopSplit4.custom_data = [1];
+
+        tFlipFlopSplit4.update = (arrow) => {
+            if (arrow.signalsCount > 0) arrow.signal = arrow.signal === 3 ? 0 : 3;
+        };
+        tFlipFlopSplit4.transmit = (arrow, chunk, x, y) => {
             if (arrow.signal === 3) {
                 window.game.FAPI.SignalUpdater.updateCount(window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, -1, 0));
                 window.game.FAPI.SignalUpdater.updateCount(window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, 0, 1));
@@ -232,7 +251,7 @@
         arrow9.name = ["Accumulating Arrow", "Накопляющая Стрелочка", ".", "."];
         arrow9.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         arrow9.does = ["Sends a signal to the top, if only one incoming signal, else, sends a signal with skipping one cell.", "Передает сигнал вверх, если 1 сигнал, иначе передаёт сигнал через одну клетку вверх.", ".", "."];
-        arrow9.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow9.png";
+        arrow9.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow9.png";
         arrow9.is_pressable = false;
 
         arrow9.update = (arrow) => {
@@ -257,7 +276,7 @@
         diagonalDetector.name = ["Diagonal Detector", "Диагональный Детектор", ".", "."];
         diagonalDetector.info = ["If arrow behind is active.", "Если стрелка позади имеет сигнал.", ".", "."];
         diagonalDetector.does = ["Sends a signal to the top right corner.", "Передает сигнал в правый верхний угол.", ".", "."];
-        diagonalDetector.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow11.png";
+        diagonalDetector.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow11.png";
         diagonalDetector.is_pressable = false;
 
         diagonalDetector.update = (arrow, chunk, x, y) => {
@@ -282,7 +301,7 @@
         colorDetector.name = ["Color Detector", "Цветовой Детектор", ".", "."];
         colorDetector.info = ["If the arrow behind has a signal of the Color you selected.", "Если стрелка позади имеет сигнал выбранного вами цвета.", ".", "."];
         colorDetector.does = ["Sends signal forward.", "Передает сигнал вперёд.", ".", "."];
-        colorDetector.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow12.png";
+        colorDetector.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow12.png";
         colorDetector.is_pressable = true;
 
         colorDetector.update = (arrow, chunk, x, y) => {
@@ -321,7 +340,7 @@
         colorSaver.name = ["color-saver Arrow", "Цвето-сохраняющая Стрелка", ".", "."];
         colorSaver.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         colorSaver.does = ["Sends a signal to all diagonal directions.", "Передаёт сигнал во все стороны по диагонали.", ".", "."];
-        colorSaver.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow13.png";
+        colorSaver.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow13.png";
         colorSaver.is_pressable = false;
 
         colorSaver.update = (arrow) => {
@@ -342,7 +361,7 @@
         adder.name = ["Adder", "Сумматор", ".", "."];
         adder.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         adder.does = ["Works like full adder. (on the left gives the result, and on the right the remainder)", "Работает как полный сумматор. (слева выдаёт результат, а справа остаток)", ".", "."];
-        adder.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow14.png";
+        adder.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow14.png";
         adder.is_pressable = false;
 
         adder.update = (arrow) => {
@@ -369,7 +388,7 @@
         colorExtracter.name = ["Color Extracter", "Экстрактор Цвета", ".", "."];
         colorExtracter.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         colorExtracter.does = ["Processes the signal color into `n` and transmits `n` signals to the arrow in front.", "Перерабатывает цвет сигнала в `n` и передаёт на стрелку спереди `n` сигналов.", ".", "."];
-        colorExtracter.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/arrow15.png";
+        colorExtracter.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow15.png";
         colorExtracter.is_pressable = false;
 
         colorExtracter.update = (arrow) => {
@@ -395,7 +414,7 @@
         block.name = ["Block", "Блок", ".", "."];
         block.info = ["On any incoming signal.", "Любым входящим сигналом.", ".", "."];
         block.does = ["Works like full adder. (on the left gives the result, and on the right the remainder)", "Работает как полный сумматор. (слева выдаёт результат, а справа остаток)", ".", "."];
-        block.icon_url = "https://raw.githubusercontent.com/w1zlm/Anything/main/block.png";
+        block.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/block.png";
         block.is_pressable = false;
 
         block.update = (arrow) => {
@@ -408,10 +427,10 @@
         game.navigation.gamePage.playerUI.toolbarController.inventory.element.appendChild(colorDetector_Modal);
 
         window.game.FAPI.registerMod("zero.astro", (mod) => {
-            window.game.FAPI.registerArrows([diagonalSplit1, diagonalSplit2, diagonalSplit3, diagonalSplit4, blueBlocker], mod);
-            window.game.FAPI.registerArrows([diagonalDetector, doubleAnd, colorDetector, block], mod);
             window.game.FAPI.registerArrows([tFlipFlopSplit1, tFlipFlopSplit2, tFlipFlopSplit3], mod);
-            window.game.FAPI.registerArrows([arrow9, adder], mod);
+            window.game.FAPI.registerArrows([diagonalSplit1, diagonalSplit2, diagonalSplit3, diagonalSplit4, blueBlocker], mod);
+            window.game.FAPI.registerArrows([diagonalDetector, doubleAnd, colorDetector], mod);
+            window.game.FAPI.registerArrows([arrow9, adder, block], mod);
             console.log("Mod loaded!");
         });
     });
