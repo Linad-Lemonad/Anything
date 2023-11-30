@@ -6,8 +6,27 @@
 
 (() => {
     window.document.addEventListener("fapiloaded", function() {
-        // region diagonalSplitter1
+        
+        // region GreenArrow
+        garrow = new window.game.FAPI.FModArrowType();
+        garrow.id = 16;
+        garrow.name = ["Diagonal Detector", "Зеленая стрелка", ".", "."];
+        garrow.info = ["If arrow behind is active.", "Если стрелка позади имеет сигнал.", ".", "."];
+        garrow.does = ["Sends a signal to the top right corner.", "Передает сигнал через 2 клетки", ".", "."];
+        garrow.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow16.png";
+        garrow.is_pressable = false;
 
+        garrow.update = (arrow, chunk, x, y) => {
+            arrow.signal = 0;
+            const backward_arrow = window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, 1, -1);
+            if (backward_arrow !== undefined) arrow.signal = backward_arrow.lastSignal !== 0 ? 2 : 0;
+        };
+        garrow.transmit = (arrow, chunk, x, y) => {
+            if (arrow.signal === 2) {
+                window.game.FAPI.SignalUpdater.updateCount(window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, -3));
+            }
+        }
+        // region diagonalSplitter1
         diagonalSplit1 = new window.game.FAPI.FModArrowType();
         diagonalSplit1.id = 0;
         diagonalSplit1.name = ["Diagonal splitter", "Диагональный разветвлитель", ".", "."];
@@ -26,6 +45,7 @@
                 window.game.FAPI.SignalUpdater.updateCount(window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, -1, -1));
             }
         }
+        
         /*diagonalSplit1.block = (arrow, chunk, x, y) => {
             if (arrow.signal === 2) {
                 let narrow = window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, -1);
@@ -38,6 +58,7 @@
 
         // endregion
 
+        
         // region diagonalSplitter2
 
         diagonalSplit2 = new window.game.FAPI.FModArrowType();
