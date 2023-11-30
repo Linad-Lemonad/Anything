@@ -26,6 +26,26 @@
                 window.game.FAPI.SignalUpdater.updateCount(window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, -3));
             }
         }
+	
+        light = new window.game.FAPI.FModArrowType();
+        light.id = 17;
+        light.name = ["Diagonal Detector", "Лампочка", ".", "."];
+        light.info = ["If arrow behind is active.", "Если стрелка позади имеет сигнал.", ".", "."];
+        light.does = ["Sends a signal to the top right corner.", "Включается при постоянном сигнале.", ".", "."];
+        light.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow18.png";
+        light.is_pressable = false;
+
+        light.update = (arrow, chunk, x, y) => {
+            arrow.signal = 0;
+            const backward_arrow = window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, 1, -1);
+            if (backward_arrow !== undefined) arrow.signal = backward_arrow.lastSignal !== 0 ? 2 : 0;
+        };
+        light.transmit = (arrow, chunk, x, y) => {
+            if (arrow.signal === 2) {
+                window.game.FAPI.SignalUpdater.updateCount(window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, 0));
+            }
+        }
+        
         // region diagonalSplitter1
         diagonalSplit1 = new window.game.FAPI.FModArrowType();
         diagonalSplit1.id = 0;
