@@ -16,10 +16,9 @@
         garrow.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow16.png";
         garrow.is_pressable = false;
 
-        garrow.update = (arrow, chunk, x, y) => {
-            arrow.signal = 0;
-            const backward_arrow = window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, 1, -1);
-            if (backward_arrow !== undefined) arrow.signal = backward_arrow.lastSignal !== 0 ? 2 : 0;
+        garrow.update = (arrow) => {
+            if (arrow.signalsCount > 0) arrow.signal = 2;
+            else arrow.signal = 0;
         };
         garrow.transmit = (arrow, chunk, x, y) => {
             if (arrow.signal === 2) {
@@ -35,10 +34,9 @@
         light.icon_url = "https://raw.githubusercontent.com/Linad-Lemonad/Anything/main/arrow18.png";
         light.is_pressable = false;
 
-        light.update = (arrow, chunk, x, y) => {
-            arrow.signal = 0;
-            const backward_arrow = window.game.FAPI.SignalUpdater.adv_getArrowAt(chunk, x, y, arrow.rotation, arrow.flipped, 1, -1);
-            if (backward_arrow !== undefined) arrow.signal = backward_arrow.lastSignal !== 0 ? 2 : 0;
+        light.update = (arrow) => {
+            if (arrow.signalsCount > 0) arrow.signal = 2;
+            else arrow.signal = 0;
         };
         light.transmit = (arrow, chunk, x, y) => {
             if (arrow.signal === 2) {
