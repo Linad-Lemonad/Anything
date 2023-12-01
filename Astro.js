@@ -54,7 +54,7 @@
         diagonalSplit1.is_pressable = false;
 
         diagonalSplit1.update = (arrow) => {
-            if (arrow.signalsCount > 0) arrow.signal = 2;
+            if (arrow.signalsCount > 0) arrow.signal = 1;
             else arrow.signal = 0;
         };
         diagonalSplit1.transmit = (arrow, chunk, x, y) => {
