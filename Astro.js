@@ -17,7 +17,7 @@
         garrow.is_pressable = false;
 
         garrow.update = (arrow) => {
-            if (arrow.signalsCount > 0) arrow.signal = 2;
+            if (arrow.signalsCount > 0) arrow.signal = 1;
             else arrow.signal = 0;
         };
         garrow.transmit = (arrow, chunk, x, y) => {
