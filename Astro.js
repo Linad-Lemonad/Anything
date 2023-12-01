@@ -35,7 +35,8 @@
         light.is_pressable = false;
 
         light.update = (arrow) => {
-            if (arrow.signalsCount > 0) arrow.signal = arrow.signal === 3 ? 0 : 3;
+            if (arrow.signalsCount > 0) arrow.signal = 1;
+            else arrow.signal = 0;
         };
         light.transmit = (arrow, chunk, x, y) => {
             if (arrow.signal === 2) {
